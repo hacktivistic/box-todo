@@ -1,0 +1,32 @@
+{
+  "name": "box-todo",
+  "version": "1.0.0",
+  "description": "Just another TodoApp made with Box-Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacktivistic/box-todo.git"
+  },
+  "keywords": [
+    "haluka",
+    "box",
+    "framework",
+    "express"
+  ],
+  "author": "Robin Panta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacktivistic/box-todo/issues"
+  },
+  "homepage": "https://github.com/hacktivistic/box-todo#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@haluka/box": "^1.1.0",
+    "express": "^4.17.1"
+  }
+}
