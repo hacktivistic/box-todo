@@ -4,7 +4,8 @@
   "description": "Just another TodoApp made with Box-Express",
   "main": "index.js",
   "scripts": {
-    "test": "jest ."
+    "test": "jest .",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
