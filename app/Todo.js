@@ -11,6 +11,7 @@ class Todo {
 
     create (task) {
         return this.TodoRepo.create({
+            id: Date.now(),
             userId: this.LoggedUser.id,
             text: task,
             completed: false
