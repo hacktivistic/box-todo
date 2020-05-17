@@ -13,7 +13,7 @@ class Database {
         return dataRepo.filter(x => {
             if (!query) return true
             for (let key in query) {
-                if (query[key] !== x[key]) return false
+                if (query[key] != x[key]) return false
             }
             return true
         }) 
