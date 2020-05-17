@@ -1,4 +1,5 @@
 # Box with Express Tutorial : A Sample Todo List
+> This project is a part of an article in medium about [Dependency injection in Node.js with Box](https://medium.com/@hacktivistic/dependency-injection-made-easy-for-node-js-with-box-3b2f58f7ecf8)
 
 This project shows how [Box](https://github.com/halukajs/box) can be used with [Express](https://github.com/expressjs/express) to ease up the development process. Just bind some dependencies, expose box into middleware if you want, then you're good to go.
 
