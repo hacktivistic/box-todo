@@ -11,17 +11,16 @@ class Database {
 
     find (query) {
         return dataRepo.filter(x => {
-            if (query == null || query == undefined) return true
-            JSON.stringify(x) == JSON.stringify(query)   // comparing properties equality
+            if (!query) return true
+            for (let key in query) {
+                if (query[key] !== x[key]) return false
+            }
+            return true
         }) 
     }
 
     findById (id) {
         return dataRepo.find(x => x.id === id)
-    }
-
-    findAll () {
-        return dataRepo
     }
 
     create (data) {
