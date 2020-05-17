@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/hacktivistic/box-todo#readme",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "@haluka/box": "^1.1.0",
