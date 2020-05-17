@@ -22,5 +22,13 @@ Router.post('/todo', (req, res) => {
 
 })
 
+Router.get('/todo/:id', (req, res) => {
+
+    res.json(req.box.Todo.retrieve( {
+        id: req.params.id 
+    }))
+
+})
+
 
 module.exports = Router
