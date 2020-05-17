@@ -24,7 +24,7 @@ Router.post('/todo', (req, res) => {
 
 Router.get('/todo/:id', (req, res) => {
 
-    res.json(req.box.Todo.retrieve( {
+    res.json(req.box.Todo.retrieve({
         id: req.params.id 
     }))
 
